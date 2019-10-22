@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a post-doctoral associate at MIT, supervised by <a href="www.tamarabroderick.com">Tamara Broderick</a>
+I am currently a post-doctoral associate at MIT, supervised by <a href="tamarabroderick.com">Tamara Broderick</a>
 
 
 I completed my Ph.D. in Statistics at Wharton where I was supervised by <a href="https://statistics.wharton.upenn.edu/profile/edgeorge/">Ed George</a> and Veronika Rockova.
