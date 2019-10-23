@@ -2,7 +2,7 @@
 title: "Estimating an NBA player's impact on his team's chances of winning"
 collection: publications
 permalink: /publication/DeshpandeJensen2016
-excerpt: 'Traditional NBA player evaluation metrics typically do not account for the context in which players perform, leading to misleading estimates of how players help their teams win. We propose a variant of Adjusted Plus/Minus that is computed on the win probability scale that overcomes this limitation. Selected as an Editor's Choice article.'
+excerpt: ''
 date: 2016-03-11
 venue: 'Journal of Quantitative Analysis in Sports'
 paperurl: 'http://skdeshpande91.github.io/files/DeshpandeJensen2016.pdf'
