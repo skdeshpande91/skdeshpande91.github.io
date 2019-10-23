@@ -19,8 +19,8 @@ Education
 ======
 * S.B. in Mathematics, Massachusetts Institute of Technology, June 2013
 * Ph.D in Statistics, University of Pennsylvania, May 2018
-  Thesis title: "Bayesian model selection and estimation without MCMC"
-  Thesis Supervisors: Ed George and Veronika Rockova
+    Thesis title: "Bayesian model selection and estimation without MCMC"
+    Thesis Supervisors: Ed George and Veronika Rockova
 
 Publications
 ======
