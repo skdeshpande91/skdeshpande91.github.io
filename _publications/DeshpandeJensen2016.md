@@ -1,7 +1,7 @@
 ---
 title: "Estimating an NBA player's impact on his team's chances of winning"
 collection: publications
-permalink: /publication/DeshpandeJensen2016
+permalink: /publications/DeshpandeJensen2016
 excerpt: ''
 date: 2016-03-11
 venue: 'Journal of Quantitative Analysis in Sports'

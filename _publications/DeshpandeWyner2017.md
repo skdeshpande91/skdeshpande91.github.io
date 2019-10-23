@@ -1,7 +1,7 @@
 ---
 title: "A hierarchical Bayesian model of pitch framing"
 collection: publications
-permalink: /publication/DeshpandeWyner2017
+permalink: /publications/DeshpandeWyner2017
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2017-10-10
 venue: 'Journal of Quantitative Analysis in Sports'
