@@ -1,5 +1,5 @@
 ---
-title: "Estimating an NBA player\'s impact on his team\'s chances of winning"
+title: "Estimating an NBA player''s impact on his team''s chances of winning"
 collection: publications
 permalink: /publications/DeshpandeJensen2016
 excerpt: ''
