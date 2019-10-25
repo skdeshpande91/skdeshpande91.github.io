@@ -6,9 +6,8 @@ excerpt: ''
 date: 2019-03-03
 venue: 'Journal of Computational and Graphical Statistics'
 paperurl: ''
-citation: ''
+citation: 'Deshpande, S.K., Rockova, V., and George, E.I. (2019). &quot;Simultaneous variable and covariance selection with the multivariate spike-and-slab LASSO.&quot; <i> Journal of Computational and Graphical Statistics</i>.'
 ---
 
 [Download paper here](http://skdeshpande91.github.io/files/Deshpande2019_mSSL.pdf)
 
-Recommended citation: Deshpande, S.K., Rockova, V., and George, E.I. (2019). &quot;Simultaneous variable and covariance selection with the multivariate spike-and-slab LASSO.&quot; <i> Journal of Computational and Graphical Statistics</i>.

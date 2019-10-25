@@ -11,4 +11,3 @@ citation: 'Deshpande, S.K. and Wyner, A. (2017). &quot;A hierarchical Bayesian m
 
 [Download paper here](http://skdeshpande91.github.io/files/DeshpandeWyner2017.pdf)
 
-Recommended citation: Deshpande, S.K. and Wyner, A. (2017). &quot;A hierarchical Bayesian model of pitch framing.&quot; <i> Journal of Quantitative Analysis in Sports</i>. 13(3): 95 - 112.
