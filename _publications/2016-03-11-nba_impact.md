@@ -6,7 +6,7 @@ excerpt: ''
 date: 2016-03-11
 venue: 'Journal of Quantitative Analysis in Sport'
 paperurl: ''
-citation: 'Deshpande, S.K. and Jensen, S.T., (2016). &quot; Estimating an NBA players impact on his teams chances of winning &quot;<i> Journal of Quantitative Analysis in Sport </i>. 12(2): 51 - 72
+citation: 'Deshpande, S.K. and Jensen, S.T., (2016). &quot; Estimating an NBA players impact on his teams chances of winning &quot;<i> Journal of Quantitative Analysis in Sport </i>. 12(2): 51 - 72'
 ---
 
 
