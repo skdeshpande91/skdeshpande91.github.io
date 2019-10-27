@@ -187,9 +187,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  invited_revision:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
