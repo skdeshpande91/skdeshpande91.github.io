@@ -11,12 +11,14 @@ redirect_from:
 
 Employment
 ======
+
 * Massachusetts Institute of Technology, CSAIL, 2018 -- present
     *Post-doctoral Association
     *Supervisor: Tamara Broderick
 
 Education
 ======
+
 * S.B. in Mathematics, Massachusetts Institute of Technology, June 2013
 * Ph.D in Statistics, University of Pennsylvania, May 2018
     *Thesis title: "Bayesian model selection and estimation without MCMC"
@@ -28,24 +30,12 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Recent Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Portfolio
-======
-  <ul>{% for post in site.portfolio %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
   
 Service
 ======
