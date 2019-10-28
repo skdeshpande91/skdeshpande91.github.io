@@ -14,9 +14,15 @@ My research interests include Bayesian hierarchical modeling, Bayesian regressio
 Recent Papers
 ======
 
+{% for post in site.publications reversed limit:5 %}
+  {%include archive-single-publication.html %}
+{% endfor %}
+
+<!--
 * "Observational study of the association between participation in high school football and self-rated health, obesity, and pain in adulthood" <i> American Journal of Epidemiology </i>. (accepted). With Timothy Gaulton, Dylan Small, and Mark Neumann. 
 * "Simultaneous variable and covariance selection with the multivariate spike-and-slab LASSO". <i> Journal of Computational and Graphical Statistics</i> (2019). With Veronika Rockova and Ed George.
 * "Bayesian spatial clustering of crime in Philadelphia with particle optimizaiton." (working paper). With Cecilia Balocchi, Ed George, and Shane Jensen
+-->
 
 More about me
 ======
