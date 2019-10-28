@@ -14,8 +14,8 @@ Employment
 
 * Massachusetts Institute of Technology, CSAIL, 2018 -- present
 
-    *Post-doctoral Association
-    *Supervisor: Tamara Broderick
+**Post-doctoral Association
+**Supervisor: Tamara Broderick
 
 Education
 ======
@@ -34,7 +34,7 @@ Publications
   
 Recent Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
