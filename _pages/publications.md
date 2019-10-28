@@ -21,7 +21,7 @@ Pre-prints & Working Papers
 ======
 {% for post in site.publications reversed %}
   {% if post.note == 'preprint' %}
-    {% include archive-single.html %}
+    {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
 
