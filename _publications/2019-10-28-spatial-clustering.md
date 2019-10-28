@@ -2,7 +2,7 @@
 title: "Bayesian spatial clustering of crime in Philadelphia with particle optimization" 
 collection: 'publications'
 permalink: /publications/2019-10-28-spatial-clustering
-excerpt:
+excerpt: ''
 date: 2019-10-28
 venue:
 paperurl:
