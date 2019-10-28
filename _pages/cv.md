@@ -28,18 +28,22 @@ Education
 Publications
 ======
   <ol reversed>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.note != 'preprint' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ol>
 
 Working Papers
 ======
   <ol>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.note == 'preprint' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ol>
   
 Recent Talks
 ======
-  <ul>{% for post in site.talks reversed %}
+  <ul>{% for post in site.talks reversed limit:5 %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
