@@ -14,7 +14,7 @@ My research interests include Bayesian hierarchical modeling, Bayesian regressio
 Recent Papers
 ======
 
-{% for post in site.publications reversed limit:5 %}
+{% for post in site.publications reversed %}
   {%include archive-single-publication.html %}
 {% endfor %}
 
