@@ -15,7 +15,7 @@ Recent Papers
 ======
 
 {% for post in site.publications reversed %}
-  {% if forloop.index < 2 %}
+  {% if forloop.index < 5 %}
     {%include archive-single-publication-about.html %}
   {% endif %}
 {% endfor %}
