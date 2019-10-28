@@ -37,7 +37,7 @@ Publications
 Working Papers
 ======
   <ol>{% for post in site.publications reversed %}
-    {% if post.note == 'test' %}
+    {% if post.note == 'preprint' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %} </ol>
