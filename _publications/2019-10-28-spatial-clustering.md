@@ -5,7 +5,7 @@ permalink: /publications/2019-10-28-spatial-clustering
 excerpt: ''
 date: 2019-10-28
 venue:
-paperurl:'https://skdeshpande91.github.io/files/spatial_clustering.pdf'
+paperurl: 'https://skdeshpande91.github.io/files/spatial_clustering.pdf'
 citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot; Bayesian spatial clustering of crime in Philadelphia with particle optimization&quot; (technical report).'
 note: 'preprint'
 ---
