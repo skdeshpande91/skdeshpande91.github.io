@@ -15,7 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
   <li>
-    <p {{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">[more info]</a> </p>
+    {{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">[more info]</a>
 <!--
     <h3 class="archive__item-title" itemprop="headline">
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.citation }}</a>
