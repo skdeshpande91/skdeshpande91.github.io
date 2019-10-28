@@ -19,7 +19,7 @@ author_profile: true
 
 Pre-prints & Working Papers
 ======
-{% for post in site.publications reverse %}
+{% for post in site.publications reversed %}
   {% if post.note == 'preprint' %}
     {% include archive-single.html %}
   {% endif %}
