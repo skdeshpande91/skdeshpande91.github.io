@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% if post.note != 'preprint' %}
+  {% if post.note != 'preprint' and post.note != 'in-preparation' %}
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
@@ -20,7 +20,7 @@ author_profile: true
 Pre-prints & Working Papers
 ======
 {% for post in site.publications reversed %}
-  {% if post.note == 'preprint' %}
+  {% if post.note == 'preprint' or post.note == 'in-preparation' %}
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
