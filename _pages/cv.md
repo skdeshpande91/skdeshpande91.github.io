@@ -17,7 +17,7 @@ Employment
 
 <ul style="list-style-type:none">
   <li> Massachusetts Institute of Technology, CSAIL, 2018 -- present </li>
-  <ul stle="list-style-type:none">
+  <ul style="list-style-type:none">
     <li> Supervisor: Tamara Broderick </li>
   </ul>
 </ul>
@@ -25,9 +25,9 @@ Employment
 
 Education
 ======
-<ul>
+<ul style="list-style-type:none">
   <li> Ph.D. in Statistics, University of Pennsylvania, May 2018 </li>
-    <ul>
+    <ul style="list-style-type:none">
       <li> Thesis: "Bayesian model selection and estimation without MCMC" </li>
       <li> Thesis supervisors: Ed George and Veronika Rockova </li>
     </ul>
@@ -55,7 +55,7 @@ Working Papers
 Recent Talks
 ======
   <ul>{% for post in site.talks reversed  %}
-    {% if forloop.index < 5 %}
+    {% if forloop.index < 6 %}
       {% include archive-single-talk-cv.html %}
     {% endif %}
   {% endfor %}</ul>

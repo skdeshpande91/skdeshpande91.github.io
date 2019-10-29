@@ -17,8 +17,10 @@
   <li>
     {% if post.paperurl %}
       {{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">[more info]</a> <a href="{{ post.paperurl }}">[paper]</a>
-    {% else %}
+    {% elsif post.note != 'in-prepartion' %}
       {{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">[more info]</a>
+    {% elsif post.note == 'in-preparation' %}
+      {{ post.citation }}
     {% endif %}
 <!--
     <h3 class="archive__item-title" itemprop="headline">
