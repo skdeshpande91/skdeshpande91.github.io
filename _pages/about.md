@@ -6,16 +6,17 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
+---i
+
 I am currently a post-doctoral associate at MIT, supervised by Tamara Broderick.
-Prior to MIT, I completed my Ph.D. in Statistics at Wharton where I supervised by Ed George and Veronika Rockova.
+I completed my Ph.D. in Statistics at Wharton where I supervised by Ed George and Veronika Rockova.
 My research interests include Bayesian hierarchical modeling, Bayesian regression trees, model selection, causal inference, and applications in public health and sports.
 
 Recent Papers
 ======
 
 {% for post in site.publications reversed %}
-  {% if forloop.index < 5 %}
+  {% if forloop.index < 6 %}
     {%include archive-single-publication-about.html %}
   {% endif %}
 {% endfor %}
