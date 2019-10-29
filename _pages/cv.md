@@ -15,9 +15,9 @@ redirect_from:
 Employment
 ======
 
-<ul>
+<ul style="list-style-type:none">
   <li> Massachusetts Institute of Technology, CSAIL, 2018 -- present </li>
-  <ul>
+  <ul stle="list-style-type:none">
     <li> Supervisor: Tamara Broderick </li>
   </ul>
 </ul>
