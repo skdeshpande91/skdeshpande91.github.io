@@ -17,7 +17,7 @@
   <li>
     {% if post.paperurl %}
       {{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">[more info]</a> <a href="{{ post.paperurl }}">[paper]</a>
-    {% elsif post.note != 'in-prepartion' %}
+    {% elsif post.note != 'in-preparation' %}
       {{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">[more info]</a>
     {% elsif post.note == 'in-preparation' %}
       {{ post.citation }}
