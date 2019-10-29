@@ -39,7 +39,7 @@ Education
 Publications
 ======
   <ol reversed>{% for post in site.publications reversed %}
-    {% if post.note != 'preprint' %}
+    {% if post.note != 'preprint' and post.note != 'in-preparation' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ol>
@@ -47,7 +47,7 @@ Publications
 Working Papers & Papers in Progress
 ======
   <ol>{% for post in site.publications reversed %}
-    {% if post.note == 'preprint' %}
+    {% if post.note == 'preprint' or post.note == 'in-preparation' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %} </ol>
@@ -55,7 +55,7 @@ Working Papers & Papers in Progress
 
 Awards & Honors
 ======
-<ul style="list-style-type:none">
+<ul>
   <li> Third prize, Ruth and William Silen, M.D. Poster Award. New England Science Symposium. 2019 </li>
   <li> Finalist, National Football League Big Data Bowl. 2019 </li>
   <li> Deming Student Scholar Award, Deming Conference on Applied Statistics. 2017 </li>
