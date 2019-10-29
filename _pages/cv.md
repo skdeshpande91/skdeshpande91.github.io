@@ -10,13 +10,13 @@ redirect_from:
 {% include base_path %}
 
 
-
+My PDF version of my full CV is available [here](skdeshpande91.github.io/files/Deshpande_cv_oct2019.pdf).
 
 Employment
 ======
 
 <ul style="list-style-type:none">
-  <li> Massachusetts Institute of Technology, CSAIL, 2018 -- present </li>
+  <li> Postdoctoral Associate, Massachusetts Institute of Technology, CSAIL, 2018 -- present </li>
   <ul style="list-style-type:none">
     <li> Supervisor: Tamara Broderick </li>
   </ul>
@@ -39,18 +39,32 @@ Education
 Publications
 ======
   <ol reversed>{% for post in site.publications reversed %}
-    {% if post.note != 'preprint' %}
+    {% if post.note != 'preprint' and post.note != 'in-preparation' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ol>
 
-Working Papers
+Working Papers & Papers in Progress
 ======
   <ol>{% for post in site.publications reversed %}
-    {% if post.note == 'preprint' %}
+    {% if post.note == 'preprint' or post.note = 'in-preparation' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %} </ol>
+
+
+Awards & Honors
+======
+<ul style="list-style-type:none">
+  <li> Third prize, Ruth and William Silen, M.D. Poster Award. New England Science Symposium. 2019 </li>
+  <li> Finalist, National Football League Big Data Bowl. 2019 </li>
+  <li> Deming Student Scholar Award, Deming Conference on Applied Statistics. 2017 </li>
+  <li> J. Parker Bursk Memorial Award (2017). </li>
+      <p> <i> Awarded by the Statistics Department at the Wharton School for excellence in research. </i> </p>
+  <li> Donald S. Murray Prize (2017). </li>
+      <p> <i> Awarded by the Statistics Department at the Wharton School for excellence in teaching. </i> </p>
+</ul>
+</ul>
   
 Recent Talks
 ======
