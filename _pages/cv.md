@@ -39,7 +39,7 @@ Education
 Publications
 ======
   <ol reversed>{% for post in site.publications reversed %}
-    {% if post.note != 'preprint' and post.note != 'in-preparation' %}
+    {% if post.note != 'preprint' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ol>
@@ -47,7 +47,7 @@ Publications
 Working Papers & Papers in Progress
 ======
   <ol>{% for post in site.publications reversed %}
-    {% if post.note == 'preprint' or post.note = 'in-preparation' %}
+    {% if post.note == 'preprint' %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %} </ol>
@@ -63,7 +63,6 @@ Awards & Honors
       <p> <i> Awarded by the Statistics Department at the Wharton School for excellence in research. </i> </p>
   <li> Donald S. Murray Prize (2017). </li>
       <p> <i> Awarded by the Statistics Department at the Wharton School for excellence in teaching. </i> </p>
-</ul>
 </ul>
   
 Recent Talks
