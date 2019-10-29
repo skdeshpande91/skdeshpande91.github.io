@@ -6,7 +6,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----i
+---
 
 I am currently a post-doctoral associate at MIT, supervised by Tamara Broderick.
 I completed my Ph.D. in Statistics at Wharton where I supervised by Ed George and Veronika Rockova.
