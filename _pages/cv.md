@@ -46,12 +46,17 @@ Publications
 
 Working Papers & Papers in Progress
 ======
-  <ol>{% for post in site.publications reversed %}
-    {% if post.note == 'preprint' or post.note == 'in-preparation' %}
+  <ul>{% for post in site.publications reversed %}
+    {% if post.note == 'preprint' %}
       {% include archive-single-cv.html %}
     {% endif %}
-  {% endfor %} </ol>
+  {% endfor %} </ul>
 
+  <ul>{% for post in site.publications reversed %}
+    {% if post.note == 'in-preparation' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %} </ul>
 
 Awards & Honors
 ======
