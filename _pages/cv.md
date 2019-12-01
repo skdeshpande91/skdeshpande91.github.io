@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-A PDF version of my full CV is available [here](https://skdeshpande91.github.io/files/Deshpande_cv_oct2019.pdf).
+A PDF version of my full CV is available [here](https://skdeshpande91.github.io/files/Deshpande_cv.pdf).
 
 Employment
 ======
