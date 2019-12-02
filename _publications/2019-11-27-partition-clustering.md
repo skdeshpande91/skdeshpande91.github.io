@@ -6,13 +6,13 @@ excerpt: ''
 date: 2019-11-27
 venue:
 paperurl: 'https://skdeshpande91.github.io/files/particle_clustering.pdf'
-citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot; Crime in Philadelphia: Bayesian clustering  with particle optimization&quot; (submitted).'
+citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization&quot; (submitted).'
 note: 'submitted'
 ---
 <b> Abstract </b> : 
 Accurate estimation of the change in crime over time is a critical first step towards better understanding of public safety in large urban environments.
 Bayesian hierarchical modeling is a natural way to study spatial variation in urban crime dynamics at the neighborhood level, since it facilitates principled "sharing of information" between adjacent neighborhoods. 
-Typically, however, cities contain many physical and social boundaries that many manifest as spatial discontinuities in crime patterns.
+Typically, however, cities contain many physical and social boundaries that may manifest as spatial discontinuities in crime patterns.
 In this situation, standard prior choices often yield overly-smooth parameter estimates, which can ultimately produce miscalibrated forecasts.
 To prevent potential over-smoothing, we introduce a prior that first partitions the set of neighborhoods into several clusters and then encourages spatial smoothness within each cluster.
 In terms of model implementation, conventional stochastic search techniques are computationally prohibitive, as they must traverse a combinatorially vast space of partitions.
