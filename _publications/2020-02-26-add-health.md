@@ -1,13 +1,13 @@
 ---
 title: "The association between football participation in adolescence and mental health in early adulthood" 
 collection: 'publications'
-permalink: /publications/2019-10-29-add-health
+permalink: /publications/2020-02-26-add-health
 excerpt: 
-date: 2019-10-29
+date: 2020-02-26
 venue:
 paperurl:
-citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2019). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; (submitted).'
-note: 'submitted'
+citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2019). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; <i>PLOS ONE </i> (accepted).'
+note: 'accepted'
 ---
 
 <b> Abstract </b>:

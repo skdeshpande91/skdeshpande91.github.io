@@ -6,8 +6,8 @@ excerpt: ''
 date: 2019-11-27
 venue:
 paperurl: 'https://skdeshpande91.github.io/files/particle_clustering.pdf'
-citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization&quot; (submitted).'
-note: 'submitted'
+citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization&quot; (Invited revision).'
+note: 'revision'
 ---
 <b> Abstract </b> : 
 Accurate estimation of the change in crime over time is a critical first step towards better understanding of public safety in large urban environments.
