@@ -6,7 +6,7 @@ excerpt: 'An version of Adjusted Plus/Minus that automatically accounts for the 
 date: 2016-03-11
 venue: 'Journal of Quantitative Analysis in Sport'
 paperurl: 'https://skdeshpande91.github.io/files/DeshpandeJensen2016.pdf'
-citation: 'Deshpande, S.K. and Jensen, S.T., (2016). &quot; Estimating an NBA players impact on his teams chances of winning &quot;<i> Journal of Quantitative Analysis in Sport </i>. 12(2): 51 - 72'
+citation: 'Deshpande, S.K. and Jensen, S.T., (2016). &quot;Estimating an NBA players impact on his teams chances of winning &quot;<i> Journal of Quantitative Analysis in Sport </i>. 12(2): 51 - 72'
 note: 'published'
 ---
 <b> Abstract </b>: Traditional NBA player evaluation metrics are based on scoring differential or some pace-adjusted linear combination of box score statistics like points, rebounds, assists, etc. 
