@@ -1,13 +1,13 @@
 ---
 title: "The association between football participation in adolescence and mental health in early adulthood" 
 collection: 'publications'
-permalink: /publications/2020-02-26-add-health
+permalink: /publications/2020-03-10-add-health
 excerpt: 
-date: 2020-02-26
+date: 2020-03-10
 venue: PLOS ONE
 paperurl:
-citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2019). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; <i>PLOS ONE </i> (accepted).'
-note: 'accepted'
+citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2019). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; <i>PLOS ONE </i>.'
+note: 'published'
 ---
 
 <b> Abstract </b>:
@@ -28,5 +28,7 @@ We found no evidence of adverse effects on mental and physical health secondary 
 <i> Conclusions </i>: For men who were in grades 7 – 12 in the 1994-95 school year, participating or intending to participate in school football does not appear to be a major risk factor for early adulthood depression.
 
 
-Our pre-analysis protocol is available [here](https://arxiv.org/abs/1808.03934)
+The paper is availble here: [DOI: 10.1371/journal.pone.0229978](https://doi.org/10.1371/journal.pone.0229978).
+
+A pre-analysis protocol for this study is available here: [arXiv:1808.03934](https://arxiv.org/abs/1808.03934).
 

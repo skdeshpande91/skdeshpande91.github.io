@@ -16,8 +16,11 @@ We instead use a win probability framework for evaluating the impact NBA players
 We propose a Bayesian linear regression model to estimate an individual player’s impact, after controlling for the other players on the court. 
 We introduce several posterior summaries to derive rank-orderings of players within their team and across the league. This allows us to identify highly paid players with low impact relative to their teammates, as well as players whose high impact is not captured by existing metrics.
 
+---
+Our paper was selected as an Editor's Choice article!
 
-Our paper was selected as an Editor's Choice article.
+The journal version of the paper is available at [DOI: 10.1515/jqas-2015-0027](https://doi.org/10.1515/jqas-2015-0027). 
 
-[Download paper here](http://skdeshpande91.github.io/files/DeshpandeJensen2016.pdf)
+A pre-print version of the paper is available at [arXiv:1604.03186](https://arxiv.org/abs/1604.03186).
+
 
