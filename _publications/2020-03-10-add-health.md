@@ -6,7 +6,7 @@ excerpt:
 date: 2020-03-10
 venue: PLOS ONE
 paperurl:
-citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2019). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; <i>PLOS ONE </i>.'
+citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2020). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; <i>PLOS ONE </i>.'
 note: 'published'
 ---
 
