@@ -6,7 +6,7 @@ excerpt:
 date: 2020-06-23
 venue:
 paperurl: 
-citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot'
+citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot;'
 note: 'submitted'
 ---
 
