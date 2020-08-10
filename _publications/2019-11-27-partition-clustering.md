@@ -5,8 +5,8 @@ permalink: /publications/2019-11-27-particle-clustering
 excerpt: ''
 date: 2019-11-27
 venue:
-paperurl: 'https://skdeshpande91.github.io/files/particle_clustering.pdf'
-citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization&quot; (Invited revision).'
+paperurl: 
+citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2019). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization.&quot;'
 note: 'revision'
 ---
 <b> Abstract </b> : 
@@ -20,7 +20,9 @@ We introduce an ensemble optimization procedure that simultaneously identifies s
 We then use the identified partitions to estimate crime trends in Philadelphia between 2006 and 2017.
 On simulated and real data, our proposed method demonstrates good estimation and partition selection performance.
 
+---
 
-[Download paper here](https://skdeshpande91.github.io/files/particle_clustering.pdf)
-[Supplementary Materials are available here](https://skdeshpande91.github.io/files/particle_clustering_supplement.pdf)
-[Code is available here](https://www.github.com/cecilia-balocchi/particle-optimization)
+A pre-print is available at [arXiv:1912.00111](https://arxiv.org/abs/1912.00111).
+
+Code for this paper is available at [this GitHub repo](https://github.com/cecilia-balocchi/particle-optimization).
+
