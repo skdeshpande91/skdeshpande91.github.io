@@ -4,9 +4,9 @@ collection: publications
 permalink: /publications/2020-06-23-structured-cv
 excerpt: 
 date: 2020-06-23
-venue:
+venue: NeurIPS 2020
 paperurl: 
-citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot; <i>NeurIPS 2020</i>'
+citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot; <i>NeurIPS 2020</i> (To appear)'
 note: 'accepted'
 ---
 
