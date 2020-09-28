@@ -8,9 +8,14 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if post.paperurl %}
+    {% if post.paperurl and !post.preprinturl%}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}  
       <a href="{{ post.paperurl }}" rel="permalink">[paper]</a> <a href="{{ base_path }}{{post.url }}" rel="permalink">[More info]</a> </p>
+    {% elsif post.paperurl and post.preprinturl}
+      <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}  
+      <a href="{{ post.preprinturl }}" rel="permalink">[preprint]</a> 
+      <a href="{{ post.paperurl }}" rel="permalink">[paper]</a> 
+      <a href="{{ base_path }}{{post.url }}" rel="permalink">[More info]</a> </p>
     {% else %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}  
       <a href="{{ base_path }}{{post.url }}" rel="permalink">[More info]</a> </p>
