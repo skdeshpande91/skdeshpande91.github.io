@@ -13,10 +13,11 @@
       <a href="{{ post.paperurl }}" rel="permalink">[paper]</a>
       <a href="{{ post.preprinturl }}" rel="permalink">[pre-print]</a>
       <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
+    <!--
     {% elsif post.paperurl and !post.preprinturl %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
       <a href="{{ post.paperurl }}" rel="permalink">[paper]</a>
-      <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
+      <a href="{{ post.url }}" rel="permalink">[more info]</a></p> -->
     {% elsif !post.paperurl and post.preprinturl %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
       <a href="{{ post.preprinturl }}" rel="permalink">[preprint]</a>
