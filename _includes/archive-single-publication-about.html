@@ -17,13 +17,13 @@
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
       <a href="{{ post.paperurl }}" rel="permalink">[paper]</a>
       <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
-    {% elsif !post.paperufl and post.preprinturl %}
+    {% elsif !post.paperurl and post.preprinturl %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
       <a href="{{ post.preprinturl }}" rel="permalink">[preprint]</a>
       <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
     {% else %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}  
-      <a href="{{ base_path }}{{post.url }}" rel="permalink">[More info]</a> </p>
+      <a href="{{ base_path }}{{post.url }}" rel="permalink">[more info]</a> </p>
     {% endif %}
  </article>
 </div>

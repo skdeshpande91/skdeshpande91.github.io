@@ -6,7 +6,7 @@ excerpt:
 date: 2020-03-10
 venue: PLOS ONE
 paperurl: https://doi.org/10.1371/journal.pone.0229978
-preprinturl:
+preprinturl: https://arxiv.org/abs/1808.03934
 citation: 'Deshpande, S.K., Hasegawa, R.B., Weiss, J., and Small, D.S. (2020). &quot;The association between football participation in adolescence and mental health in early adulthood&quot; <i>PLOS ONE </i> 15(3): 1 -- 14.'
 note: 'published'
 ---
