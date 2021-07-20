@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+Peer-reviewed Publications
+======
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -16,13 +18,13 @@ author_profile: true
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
-<!--
+
 Pre-prints & Working Papers
 ======
 {% for post in site.publications reversed %}
-  {% if post.note == 'preprint' or post.note == 'in-preparation' %}
+  {% if post.note == 'preprint' or post.note == 'revision' %}
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
 
--->
+
