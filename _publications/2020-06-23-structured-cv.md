@@ -4,11 +4,11 @@ collection: publications
 permalink: /publications/2020-06-23-structured-cv
 excerpt: 
 date: 2020-06-23
-venue: NeurIPS 2020
-preprint_url: https://arxiv.org/abs/2006.12669
+venue: 'NeurIPS 2020'
+preprinturl: https://arxiv.org/abs/2006.12669
 paperurl: https://proceedings.neurips.cc/paper/2020/hash/636efd4f9aeb5781e9ea815cdd633e52-Abstract.html
 citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot; <i>NeurIPS 2020</i>'
-note: 'accepted'
+note: 'published'
 ---
 
 <b> Abstract </b>:
