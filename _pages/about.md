@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a post-doctoral associate at MIT, supervised by Tamara Broderick.
-I completed my Ph.D. in Statistics at Wharton where I supervised by Ed George and Veronika Rockova.
+I will be joining the Statistics Department at the University of Wisconsin -- Madison in Fall 2021.
+I completed a postdoc with Professor Tamara Broderick at MIT.
+Prior to that, I completed my Ph.D. in Statistics at Wharton where I was supervised by Professors Ed George and Veronika Rockova.
 My research interests include Bayesian hierarchical modeling, Bayesian regression trees, model selection, causal inference, and applications in public health and sports.
 
 Recent Papers
