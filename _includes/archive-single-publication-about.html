@@ -16,7 +16,7 @@
     {% elsif !post.paperurl and post.preprinturl %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
       <a href="{{ post.preprinturl }}" rel="permalink">[preprint]</a>
-      <a href="{{ post.url }}" rel="permalink">[more information]</a></p>
+      <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
     {% else %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}  
       <a href="{{ base_path }}{{post.url }}" rel="permalink">[more info]</a> </p>
