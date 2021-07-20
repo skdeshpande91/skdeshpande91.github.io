@@ -1,6 +1,6 @@
 ---
 title: "Measuring the sensitivity of Gaussian processes to kernel choice"
-collection: publications
+collection: 'publications'
 permalink: /publications/2021-06-11-gp-sensitivity
 excerpt: 
 date: 2020-06-11
