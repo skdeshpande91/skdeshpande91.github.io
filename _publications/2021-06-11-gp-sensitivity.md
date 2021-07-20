@@ -8,7 +8,7 @@ venue:
 paperurl: 
 preprinturl: https://arxiv.org/abs/2106.06510
 citation: 'Stephenson, W.T., Ghosh, S., Nguyen, T.D., Yurochkin, M, Deshpande, S.K., and Broderick, T. (2021). &quot;Measuring the sensitivt of Gaussian processes to kernel choice.&quot;'
-note: 'pre-print'
+note: 'preprint'
 ---
 
 <b> Abstract </b>:
