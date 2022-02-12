@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I will be joining the Statistics Department at the University of Wisconsin -- Madison in Fall 2021.
-I completed a postdoc with Professor Tamara Broderick at MIT.
-Prior to that, I completed my Ph.D. in Statistics at Wharton where I was supervised by Professors Ed George and Veronika Rockova.
+I am an Assistant Professor in the [Department of Statistics](https://stat.wisc.edu) at the University of Wisconsin--Madison.
+Prior to that, I completed a postdoc with Professor Tamara Broderick at MIT and earned my Ph.D. in Statistics at Wharton where I was supervised by Professors Ed George and Veronika Rockova.
 My research interests include Bayesian hierarchical modeling, Bayesian regression trees, model selection, causal inference, and applications in public health and sports.
 
 Recent Papers
