@@ -7,7 +7,7 @@ date: 2022-03-28
 venue: 'AISTATS 2022'
 paperurl:
 preprinturl: https://arxiv.org/abs/2106.06510
-citation: 'Stephenson, W.T., Ghosh, S., Nguyen, T.D., Yurochkin, M, Deshpande, S.K., and Broderick, T. (2022). &quot;Measuring the sensitivt of Gaussian processes to kernel choice.&quot; <it>AISTATS 2022</i>.'
+citation: 'Stephenson, W.T., Ghosh, S., Nguyen, T.D., Yurochkin, M, Deshpande, S.K., and Broderick, T. (2022). &quot;Measuring the robustness of Gaussian processes to kernel choice.&quot; <i>AISTATS 2022</i>.'
 note: 'accepted'
 ---
 <b> Abstract </b>: 
