@@ -33,7 +33,7 @@ layout: default
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        
+<!--        
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	{% elsif page.note == 'accepted' %}
@@ -51,7 +51,7 @@ layout: default
         {% if page.citation %}
           <p> Recommended citation: {{ page.citation }} </p>
         {% endif %}
-        
+-->        
 <!--              
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
@@ -64,23 +64,15 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        <p> --- </p>
+        <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
+
+        ---
+
       </section>
 
       <section class="page__content" itemprop="text">
-        
-	{% if page.note == 'accepted' %}
-	  <p>Accepted at <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-	{% elsif page.note == 'revision' %}
-	  <p>Invited revision, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-	{% elsif page.note == 'published' %}
-	  <p> Published in <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-	{% elsif page.note == 'preprint' %}
-	  <p> Technical report, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% endif %}
+        {% if page.citation %}
+          <p> Recommended citation: {{ page.citation }} </p>
       </section>
 
       <footer class="page__meta">
