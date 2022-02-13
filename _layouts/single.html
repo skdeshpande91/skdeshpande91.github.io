@@ -65,11 +65,22 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        ---
+        <p> --- </p>
       </section>
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        
+	{% if page.note == 'accepted' %}
+	  <p>Accepted at <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+	{% elsif page.note == 'revision' %}
+	  <p>Invited revision, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+	{% elsif page.note == 'published' %}
+	  <p> Published in <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+	{% elsif page.note == 'preprint' %}
+	  <p> Technical report, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.venue and page.date %}
+          <p>Published in <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% endif %}
       </section>
 
       <footer class="page__meta">
