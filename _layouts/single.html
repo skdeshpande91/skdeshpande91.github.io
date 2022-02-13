@@ -47,17 +47,7 @@ layout: default
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }} </i>,{{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}
-        {% if page.citation %}
-          <p> Recommended citation: {{ page.citation }} </p>
-        {% endif %}
 -->        
-<!--              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
--->    
         </header>
       {% endunless %}
 
@@ -65,18 +55,12 @@ layout: default
         {{ content }}
         <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
 
-	{{ --- }}        
         {% if page.citation %}
           <p> <b>Recommended citation</b>: {{ page.citation }} </p>
         {% endif %}
 
       </section>
 
-      <section class="page__content" itemprop="text">
-        {% if page.citation %}
-          <p> Recommended citation: {{ page.citation }} </p>
-        {% endif %}
-      </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
