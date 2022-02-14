@@ -12,6 +12,13 @@ I am an Assistant Professor in the Department of Statistics at the University of
 Prior to that, I completed a postdoc with Professor Tamara Broderick at MIT and earned my Ph.D. in Statistics at Wharton where I was supervised by Professors Ed George and Veronika Rockova.
 My research interests include Bayesian hierarchical modeling, Bayesian regression trees, model selection, causal inference, and applications in public health and sports.
 
+Working with me
+======
+If you are currently enrolled in, or accepted to, a UW-Madison graduate program (i.e. an MS, MA, or Ph.D. program), please feel free to email me about potential research opportunities.
+
+Unfortunately, I am not able to reply to all inquiries from students who are at other universities or are in the process of applying to UW-Madison graduate programs.
+
+
 Recent Papers
 ======
 
