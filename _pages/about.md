@@ -16,6 +16,8 @@ Working with me
 ======
 If you are currently enrolled in, or accepted to, a UW-Madison graduate program (i.e. an MS, MA, or Ph.D. program), please feel free to email me about potential research opportunities.
 
+
+If you are not a current or incoming UW-Madison graduate student but are interested in working together, please submit an application to one of our graduate programs; [more info at this link](https://stat.wisc.edu/graduate-studies/graduate-admissions/).
 Unfortunately, I am not able to reply to all inquiries from students who are at other universities or are in the process of applying to UW-Madison graduate programs.
 
 
