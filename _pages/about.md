@@ -15,6 +15,15 @@ My research interests include Bayesian hierarchical modeling, Bayesian regressio
 My CV is available [here](https://skdeshpande91.github.io/files/Deshpande_cv.pdf).
 
 
+Recent Papers
+======
+
+{% for post in site.publications reversed %}
+  {% if forloop.index < 6  %}
+    {%include archive-single-publication-about.html %}
+  {% endif %}
+{% endfor %}
+
 Working with me
 ======
 If you are currently enrolled in, or accepted to, a UW-Madison graduate program (i.e. an MS, MA, or Ph.D. program), please feel free to email me about potential research opportunities.
@@ -24,14 +33,6 @@ If you are not a current or incoming UW-Madison graduate student but are interes
 Unfortunately, I am not able to reply to all inquiries from students who are at other universities or are in the process of applying to UW-Madison graduate programs.
 
 
-Recent Papers
-======
-
-{% for post in site.publications reversed %}
-  {% if forloop.index < 6  %}
-    {%include archive-single-publication-about.html %}
-  {% endif %}
-{% endfor %}
 
 
 More about me

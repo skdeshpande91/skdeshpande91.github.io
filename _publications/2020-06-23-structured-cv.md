@@ -7,7 +7,7 @@ date: 2020-06-23
 venue: 'NeurIPS 2020'
 preprinturl: https://arxiv.org/abs/2006.12669
 paperurl: https://proceedings.neurips.cc/paper/2020/hash/636efd4f9aeb5781e9ea815cdd633e52-Abstract.html
-citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot; <i>NeurIPS 2020</i>'
+citation: 'Ghosh, S., Stephenson, W.T., Nguyen, T.D., Deshpande, S.K., and Broderick T. (2020). &quot;Approximate cross-validiation for structured models.&quot; <i>Advances in Neural Information Processing Systems</i>, 33:8741--8752.'
 note: 'published'
 ---
 
@@ -22,6 +22,7 @@ We demonstrate the accuracy and computational benefits of our proposed methods o
 
 ---
 
+Our paper is available in the conference proceedings at [this link](https://proceedings.neurips.cc/paper/2020/hash/636efd4f9aeb5781e9ea815cdd633e52-Abstract.html).
+
 A pre-print is available at [arXiv:2006.12669](https://arxiv.org/abs/2006.12669v1).
 
-The proceedings version is available at [this link](https://proceedings.neurips.cc/paper/2020/hash/636efd4f9aeb5781e9ea815cdd633e52-Abstract.html).
