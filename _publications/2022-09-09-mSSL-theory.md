@@ -6,7 +6,7 @@ excerpt:
 date: 2022-09-09
 venue:
 paperurl:
-preprinturl: https://arxiv.org/abs/2209.04398
+preprinturl: https://arxiv.org/abs/2209.04389
 citation: 'Shen, Y., and Deshpande, S.K. (2022+). &quot;On the posterior contraction of the multivariate spike-and-slab LASSO.&quot; <i>arXiv preprint</i> arXiv:2209.04389'
 note: 'preprint'
 ---
@@ -22,9 +22,8 @@ Our results imply that a slightly modified version of Deshpande et al. (2019)'s 
 
 ---
 
-<!-- The journal version of the paper is available at [DOI:10.1080/10618600.2019.1593179](https://doi.org/10.1080/10618600.2019.1593179).-->
 
-A pre-print version of the paper is available at [arXiv:2207.07020](https://arxiv.org/abs/2209.04389).
+A pre-print version of the paper is available at [arXiv:2209.04389](https://arxiv.org/abs/2209.04389).
 
-
+Check our the preparint [here]({{ preprinturl }}
 
