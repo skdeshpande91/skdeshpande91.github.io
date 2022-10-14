@@ -60,8 +60,8 @@
     {% endif %}
 
     {% if post.preprinturl %}
-      <p> Our preprint is available here: <a> href="{{ post.preprinturl }}" rel="permalink">here</a></p> 
-    <% endif %}    
+      <p> Preprint is here:<br/>{{ post.preprinturl }} </p>
+    {% endif %}
     {% if post.citation %}
       <p> Recommended citation:<br/>{{ post.citation }} </p>
     {% endif %}
