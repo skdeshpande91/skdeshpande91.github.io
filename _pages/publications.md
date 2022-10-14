@@ -5,8 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-
-
 Pre-prints & Working Papers
 ======
 {% for post in site.publications reversed %}
