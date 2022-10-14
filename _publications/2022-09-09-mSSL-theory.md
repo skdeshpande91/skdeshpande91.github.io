@@ -25,5 +25,4 @@ Our results imply that a slightly modified version of Deshpande et al. (2019)'s 
 
 A pre-print version of the paper is available at [arXiv:2209.04389](https://arxiv.org/abs/2209.04389).
 
-Check our the preparint [here]({{ preprinturl }}
 
