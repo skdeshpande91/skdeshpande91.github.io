@@ -9,6 +9,30 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.paperurl and post.preprinturl %}
+      <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
+      <a href="{{ post.paperurl }}" rel="permalink">[paper]</a>
+      <a href="{{ post.preprinturl }}" rel="permalink">[pre-print]</a>
+      <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
+    {% elsif post.paperurl %}
+      <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
+      <a href = "{{ post.paperurl }}" rel="permalink">[paper]</a>
+      <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
+    {% elsif post.preprinturl %}
+      <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
+      <a href="{{ post.preprinturl }}" rel="permalink">[preprint]</a>
+      <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
+    {% else %}
+      <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}
+      <a href="{{ base_path }}{{post.url }}" rel="permalink">[more info]</a> </p>
+    {% endif %}
+ </article>
+</div>
+
+
+<!--
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -18,6 +42,7 @@
         {{ title }} 
       {% endif %}
     </h3>
-    <!-- <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> -->
+    <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
  </article>
 </div>
+-->

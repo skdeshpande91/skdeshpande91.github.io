@@ -5,6 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+
+Pre-prints & Working Papers
+======
+{% for post in site.publications reversed %}
+  {% if post.note == 'preprint' or post.note == 'revision' %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+
 Peer-reviewed Publications
 ======
 {% if author.googlescholar %}
@@ -18,13 +28,3 @@ Peer-reviewed Publications
     {% include archive-single-publication.html %}
   {% endif %}
 {% endfor %}
-
-Pre-prints & Working Papers
-======
-{% for post in site.publications reversed %}
-  {% if post.note == 'preprint' or post.note == 'revision' %}
-    {% include archive-single-publication.html %}
-  {% endif %}
-{% endfor %}
-
-
