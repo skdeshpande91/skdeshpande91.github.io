@@ -55,6 +55,14 @@ layout: default
         {{ content }}
         <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
 
+        {% if page.paperurl %}
+          <p> Download the journal version <a href="{{ post.paperurl }}" rel="permalink">here</a>. </p>
+        {% endif %}
+
+        {% if page.preprinturl %}
+          <p> A pre-print is available <a href="{{ post.preprinturl }}" rel="permalink">here</a>. </p>
+        {% endif %}
+
         {% if page.citation %}
           <p> <b>Recommended citation</b>: {{ page.citation }} </p>
         {% endif %}
