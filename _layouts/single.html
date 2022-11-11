@@ -56,9 +56,8 @@ layout: default
         <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
 
         {% if page.paperurl %}
-          <div>
-            <p class = "archive__item-excerpt" itemprop="description">
-	    Download the journal version <a href="{{ post.paperurl }}" rel="permalink">here</a>. </p> </div>
+          <p class = "archive__item-excerpt" itemprop="description"> Download the paper
+            <a href = "{{ post.paperurl }}" rel="permalink">[paper]</a> </p>
         {% endif %}
 
         {% if page.preprinturl %}
@@ -71,8 +70,6 @@ layout: default
 
       </section>
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.paperurl and post.preprinturl %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}<br>
       <a href="{{ post.paperurl }}" rel="permalink">[paper]</a>
@@ -90,8 +87,6 @@ layout: default
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}<br>
       <a href="{{ base_path }}{{post.url }}" rel="permalink">[more info]</a> </p>
     {% endif %}
- </article>
-</div>
 
 
 
