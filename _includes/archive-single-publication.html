@@ -1,12 +1,17 @@
 {% include base_path %}
 
-
+<!--
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+-->
 
+{{ post.citation }} <br>
+<a href = "{{ post.paperurl }}" rel="permalink">[paper]</a>
+
+<!--
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.paperurl and post.preprinturl %}
@@ -28,7 +33,7 @@
     {% endif %}
  </article>
 </div>
-
+-->
 
 
 <!--
