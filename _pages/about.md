@@ -18,11 +18,11 @@ My CV is available [here](https://skdeshpande91.github.io/files/Deshpande_cv.pdf
 Recent Papers
 ======
 
-<ol, type="1"> {% for post in site.publications reversed %}
+<ol>{% for post in site.publications reversed %}
   {% if forloop.index < 6  %}
-    {%include archive-single-publication-about.html %}
+   <li> {%include archive-single-publication-about.html %}</li>
   {% endif %}
-{% endfor %} </ol>
+{% endfor %}</ol>
 
 Working with me
 ======
