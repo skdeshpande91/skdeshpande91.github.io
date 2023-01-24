@@ -10,10 +10,10 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.paperurl and post.preprinturl %}
-      <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }} <br>
+      <ol class = "archive__item-excerpt" itemprop="description">{{ post.citation }} <br>
       <a href="{{ post.paperurl }}" rel="permalink">[paper]</a>
       <a href="{{ post.preprinturl }}" rel="permalink">[pre-print]</a>
-      <a href="{{ post.url }}" rel="permalink">[more info]</a></p>
+      <a href="{{ post.url }}" rel="permalink">[more info]</a></ol>
     {% elsif post.paperurl %}
       <p class = "archive__item-excerpt" itemprop="description">{{ post.citation }}<br>
       <a href = "{{ post.paperurl }}" rel="permalink">[paper]</a>
