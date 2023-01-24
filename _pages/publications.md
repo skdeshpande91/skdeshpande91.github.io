@@ -7,11 +7,11 @@ author_profile: true
 
 Pre-prints & Working Papers
 ======
-{% for post in site.publications reversed %}
+<ol>{% for post in site.publications reversed %}
   {% if post.note == 'preprint' or post.note == 'revision' %}
-    {% include archive-single-publication.html %}
+    <li>{% include archive-single-publication.html %}</li>
   {% endif %}
-{% endfor %}
+{% endfor %}</ol>
 
 Peer-reviewed Publications
 ======
@@ -21,8 +21,8 @@ Peer-reviewed Publications
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+<ol reversed> {% for post in site.publications reversed %}
   {% if post.note != 'preprint' and post.note != 'in-preparation' %}
-    {% include archive-single-publication.html %}
+    <li>{% include archive-single-publication.html %}</li>
   {% endif %}
-{% endfor %}
+{% endfor %}</ol>
