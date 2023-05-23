@@ -20,8 +20,5 @@ We introduce several posterior summaries to derive rank-orderings of players wit
 ---
 Our paper was selected as an Editor's Choice article!
 
-The journal version of the paper is available at [DOI: 10.1515/jqas-2015-0027](https://doi.org/10.1515/jqas-2015-0027). 
-
-A pre-print version of the paper is available at [arXiv:1604.03186](https://arxiv.org/abs/1604.03186).
 
 
