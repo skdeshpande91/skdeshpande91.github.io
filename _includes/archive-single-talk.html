@@ -7,13 +7,20 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 -->
-
+<!--
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+-->
 
+
+{{ post.title }}. {{ post.venue }}. 
+{% if post .date%} {{ post.date | date: '%B %d, %Y' }} {% endif %}.
+
+
+<!--
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -42,3 +49,4 @@
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
+-->
