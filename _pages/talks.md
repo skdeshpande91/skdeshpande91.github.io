@@ -7,7 +7,7 @@ author_profile: true
 
 <b> Under construction </b>
 
-
+<!--
 Upcoming talks
 ======
 
@@ -36,4 +36,4 @@ Conference talks
   {% endif %}
 {% endfor %}</ol>
 
-
+-->
