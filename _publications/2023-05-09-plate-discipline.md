@@ -7,8 +7,8 @@ date: 2023-05-09
 venue:
 paperurl: 
 preprinturl: https://arxiv.org/abs/2305.05752
-citation: 'Yee,R. and Deshpande, S.K. (2023). &quot;Evaluating plate discipline in Major League Baseball with Bayesian additive regression trees.&quot;'
-note: 'preprint'
+citation: 'Yee,R. and Deshpande, S.K. (2023). &quot;Evaluating plate discipline in Major League Baseball with Bayesian additive regression trees.&quot; <i>Journal of Quantitative Analysis in Sports</i>.'
+note: 'accepted'
 ---
 
 <b> Abstract </b> : 
@@ -17,8 +17,6 @@ Unlike traditional plate discipline metrics, which implicitly assume that all ba
 Specifically, we first fit flexible Bayesian nonparametric models to estimate (i) the probability that the pitch is called a strike if the batter takes the pitch; (ii) the probability that the batter makes contact if he swings; and (iii) the number of runs the batting team is expected to score following each pitch outcome (e.g. swing and miss, take a called strike, etc.). 
 We then combine these intermediate estimates to determine whether swinging increases the batting team's run expectancy. Our approach enables natural uncertainty propagation so that we can not only determine the optimal swing/take decision but also quantify our confidence in that decision. 
 We illustrate our framework using a case study of pitches faced by Mike Trout in 2019.
-
-
 ---
 
 
