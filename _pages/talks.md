@@ -7,7 +7,6 @@ author_profile: true
 
 <b> Under construction </b>
 
-<!--
 Upcoming talks
 ======
 
@@ -21,7 +20,7 @@ Department seminars
 ======
 
 <ol>{% for post in site.talks reversed %}
-  { %if post.note == 'seminar' %}
+  {% if post.note == 'seminar' %}
     <li> { %include archive-single-talk.html %}</li>
   {% endif %}
 {% endfor %} </ol>
@@ -36,4 +35,3 @@ Conference talks
   {% endif %}
 {% endfor %}</ol>
 
--->
