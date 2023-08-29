@@ -15,11 +15,21 @@ Upcoming talks
   {% endif %}
 {% endfor %} </ol>
 
-Past talks
+Department seminars
+======
+
+<ol>{% for post in site.talks reversed %}
+  { %if post.note == 'seminar' %}
+    <li> { %include archive-single-talk.html %}</li>
+  {% endif %}
+{% endfor %} </ol>
+
+
+Conference talks
 ======
 
 <ol reversed> {% for post in site.talks reversed %}
-  {% if post.note == "past" %}
+  {% if post.note == "conference" %}
     <li>{% include archive-single-talk.html %}</li>
   {% endif %}
 {% endfor %}</ol>
