@@ -1,0 +1,62 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Sameer Deshpande at 2024-08-16 08:29:40 -0500 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@online{2024-08-16-bcflate,
+	abstract = {Estimating varying treatment effects in randomized trials with noncompliance is inherently challenging since variation comes from two separate sources: variation in the impact itself and variation in the compliance rate. In this setting, existing frequentist and flexible machine learning methods are highly sensitive to the weak instruments problem, in which the compliance rate is (locally) close to zero. Bayesian approaches, on the other hand, can naturally account for noncompliance via imputation. We propose a Bayesian machine learning approach that combines the best features of both approaches. Our main methodological contribution is to present a Bayesian Causal Forest model for binary response variables in scenarios with noncompliance by repeatedly imputing individuals' compliance types, allowing us to flexibly estimate varying treatment effects among compliers. Simulation studies demonstrate the usefulness of our approach when compliance and treatment effects are heterogeneous. We apply the method to detect and analyze heterogeneity in the treatment effects in the Illinois Workplace Wellness Study, which not only features heterogeneous and one-sided compliance but also several binary outcomes of interest. We demonstrate the methodology on three outcomes one year after intervention. We confirm a null effect on the presence of a chronic condition, discover meaningful heterogeneity in a "bad health" outcome that cancels out to null in classical partial effect estimates, and find substantial heterogeneity in individuals' perception of management prioritization of health and safety.},
+	author = {Jared D. Fisher and David W. Puelz and \skd},
+	date-added = {2024-08-16 08:22:48 -0500},
+	date-modified = {2024-08-16 08:29:36 -0500},
+	eprint = {2408.07765},
+	eprinttype = {arXiv},
+	preprint = {https://arxiv.org/abs/2408.07765},
+	title = {A {Bayesian} classification tree approach to treatment effect variation with noncompliance},
+	year = {2024}}
+
+@online{2024-05-16-mSSL-theory,
+	author = {Yunyi Shen and \skd},
+	date-added = {2024-05-21 19:44:02 -0500},
+	date-modified = {2024-05-22 09:12:48 -0500},
+	eprint = {2209.04389},
+	eprinttype = {arXiv},
+	preprint = {https://arxiv.org/abs/2209.04389},
+	title = {Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO},
+	year = {2024}}
+
+@online{2023-06-21-flexBART,
+	abstract = {Most implementations of Bayesian additive regression trees (BART) one-hot encode categorical predictors, replacing each one with several binary indicators, one for every level or category. Regression trees built with these indicators partition the discrete set of categorical levels by repeatedly removing one level at a time. Unfortunately, the vast majority of partitions cannot be built with this strategy, severely limiting BART's ability to partially pool data across groups of levels. Motivated by analyses of baseball data and neighborhood-level crime dynamics, we overcame this limitation by re-implementing BART with regression trees that can assign multiple levels to both branches of a decision tree node. To model spatial data aggregated into small regions, we further proposed a new decision rule prior that creates spatially contiguous regions by deleting a random edge from a random spanning tree of a suitably defined network. Our re-implementation, which is available in the flexBART package, often yields improved out-of-sample predictive performance and scales better to larger datasets than existing implementations of BART.},
+	author = {\skd},
+	date-added = {2024-05-21 19:42:33 -0500},
+	date-modified = {2024-05-22 09:13:07 -0500},
+	eprint = {2211.04459},
+	eprinttype = {arXiv},
+	preprint = {https://arxiv.org/abs/2211.04459},
+	title = {{flexBART: Flexible Bayesian} regression trees with categorical predictors},
+	year = {2023}}
+
+@online{2024-05-17-vcbart,
+	abstract = {The linear varying coefficient models posits a linear relationship between an outcome and covariates in which the covariate effects are modeled as functions of additional effect modifiers. Despite a long history of study and use in statistics and econometrics, state-of-the-art varying coefficient modeling methods cannot accommodate multivariate effect modifiers without imposing restrictive functional form assumptions or involving computationally intensive hyperparameter tuning. In response, we introduce VCBART, which flexibly estimates the covariate effect in a varying coefficient model using Bayesian Additive Regression Trees. With simple default settings, VCBART outperforms existing varying coefficient methods in terms of covariate effect estimation, uncertainty quantification, and outcome prediction. We illustrate the utility of VCBART with two case studies: one examining how the association between later-life cognition and measures of socioeconomic position vary with respect to age and socio-demographics and another estimating how temporal trends in urban crime vary at the neighborhood level. An R package implementing VCBART is available at [this url](https://github.com/skdeshpande91/VCBART)},
+	author = {\skd and Ray Bai and Cecilia Balocchi and Jennifer E. Starling and Jordan Weiss},
+	date-added = {2024-05-21 19:35:18 -0500},
+	date-modified = {2024-05-22 09:12:42 -0500},
+	eprint = {2003.06416},
+	eprinttype = {arXiv},
+	title = {{VCBART: Bayesian} trees for varying coefficients},
+	year = {2024}}
+
+@online{2024-05-06-nsyr,
+	abstract = {We study the impact of teenage sports participation on early-adulthood health using longitudinal data from the National Study of Youth and Religion. We focus on two primary outcomes measured at ages 23--28 -- self-rated health and total score on the PHQ9 Patient Depression Questionnaire -- and control for several potential confounders related to demographics and family socioeconomic status. To probe the possibility that certain types of sports participation may have larger effects on health than others, we conduct a matched observational study at each level within a hierarchy of exposures. Our hierarchy ranges from broadly defined exposures (e.g., participation in any organized after-school activity) to narrow (e.g., participation in collision sports). We deployed an ordered testing approach that exploits the hierarchical relationships between our exposure definitions to perform our analyses while maintaining a fixed family-wise error rate. Compared to teenagers who did not participate in any after-school activities, those who participated in sports had statistically significantly better self-rated and mental health outcomes in early adulthood.},
+	author = {Ajinkya H. Kokandakar and Yuzhou Lin and Steven Jin and Jordan Weiss and Amanda R. Rabinowitz and Reuben A. {Buford May} and Dylan Small and \skd},
+	date-added = {2024-05-21 19:31:17 -0500},
+	date-modified = {2024-05-22 09:12:56 -0500},
+	eprint = {2405.035838},
+	eprinttype = {arXiv},
+	preprint = {https://arxiv.org/abs/2405.03538},
+	title = {Adolescent sports participation and health in early adulthood: An observational study},
+	year = {2024}}
