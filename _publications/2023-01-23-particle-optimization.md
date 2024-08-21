@@ -1,13 +1,13 @@
 ---
 title: "Crime in Philadelphia: Bayesian Clustering with Particle Optimization" 
 collection: 'publications'
-permalink: /publications/2022-11-21-particle-optimization
+permalink: /publications/2022-01-23-particle-optimization
 excerpt: ''
-date: 2022-11-21
+date: 2023-01-23
 venue:
 paperurl: https://doi.org/10.1080/01621459.2022.2156348 
 preprinturl: https://arxiv.org/abs/1912.00111
-citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2022). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization.&quot;<i> Journal of the American Statistical Association</i>'
+citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2023). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization.&quot;<i> Journal of the American Statistical Association</i>' 118(542): 818--829.
 note: 'accepted'
 ---
 <b> Abstract </b> : 
