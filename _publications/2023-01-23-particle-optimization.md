@@ -1,7 +1,7 @@
 ---
 title: "Crime in Philadelphia: Bayesian Clustering with Particle Optimization" 
 collection: 'publications'
-permalink: /publications/2022-01-23-particle-optimization
+permalink: /publications/2023-01-23-particle-optimization
 excerpt: ''
 date: 2023-01-23
 venue:
