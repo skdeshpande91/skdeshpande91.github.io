@@ -7,7 +7,7 @@ date: 2023-01-23
 venue:
 paperurl: https://doi.org/10.1080/01621459.2022.2156348 
 preprinturl: https://arxiv.org/abs/1912.00111
-citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2023). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization.&quot;<i> Journal of the American Statistical Association</i>' 118(542): 818--829.
+citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2023). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization.&quot;<i> Journal of the American Statistical Association</i> 118(542): 818--829.'
 note: 'published'
 ---
 <b> Abstract </b> : 
@@ -20,7 +20,6 @@ In terms of model implementation, conventional stochastic search techniques are 
 We introduce an ensemble optimization procedure that simultaneously identifies several high probability partitions by solving one optimization problem using a new local search strategy.
 We then use the identified partitions to estimate crime trends in Philadelphia between 2006 and 2017.
 On simulated and real data, our proposed method demonstrates good estimation and partition selection performance.
-
 ---
 
 
