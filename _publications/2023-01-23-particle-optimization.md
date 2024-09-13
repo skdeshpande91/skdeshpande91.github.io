@@ -8,7 +8,7 @@ venue:
 paperurl: https://doi.org/10.1080/01621459.2022.2156348 
 preprinturl: https://arxiv.org/abs/1912.00111
 citation: 'Balocchi, C., Deshpande, S.K., George, E.I., and Jensen, S.T. (2023). &quot;Crime in Philadelphia: Bayesian clustering  with particle optimization.&quot;<i> Journal of the American Statistical Association</i>' 118(542): 818--829.
-note: 'accepted'
+note: 'published'
 ---
 <b> Abstract </b> : 
 Accurate estimation of the change in crime over time is a critical first step towards better understanding of public safety in large urban environments.
