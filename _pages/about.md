@@ -12,7 +12,7 @@ I am an Assistant Professor in the Department of Statistics at the University of
 Prior to that, I completed a postdoc with Professor Tamara Broderick at MIT and earned my Ph.D. in Statistics at Wharton where I was supervised by Professors Ed George and Veronika Rockova.
 My research interests include Bayesian hierarchical modeling, Bayesian regression trees, model selection, causal inference, and applications in public health and sports.
 
-My CV is available [here](https://skdeshpande91.github.io/files/Deshpande_cv.pdf).
+My CV is available [here](https://skdeshpande91.github.io/files/Deshpande_cv_new.pdf).
 
 
 Recent Papers
