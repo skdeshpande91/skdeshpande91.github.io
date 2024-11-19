@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Sameer Deshpande at 2024-11-14 13:23:23 -0600 
+%% Created for Sameer Deshpande at 2024-11-19 12:42:00 -0600 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -12,7 +12,8 @@
 	abstract = {Most implementations of Bayesian additive regression trees (BART) one-hot encode categorical predictors, replacing each one with several binary indicators, one for every level or category. Regression trees built with these indicators partition the discrete set of categorical levels by repeatedly removing one level at a time. Unfortunately, the vast majority of partitions cannot be built with this strategy, severely limiting BART's ability to partially pool data across groups of levels. Motivated by analyses of baseball data and neighborhood-level crime dynamics, we overcame this limitation by re-implementing BART with regression trees that can assign multiple levels to both branches of a decision tree node. To model spatial data aggregated into small regions, we further proposed a new decision rule prior that creates spatially contiguous regions by deleting a random edge from a random spanning tree of a suitably defined network. Our re-implementation, which is available in the flexBART package, often yields improved out-of-sample predictive performance and scales better to larger datasets than existing implementations of BART.},
 	author = {\skd},
 	date-added = {2024-11-14 13:11:23 -0600},
-	date-modified = {2024-11-14 13:23:23 -0600},
+	date-modified = {2024-11-19 12:40:35 -0600},
+	doi = {10.1080/10618600.2024.2431072},
 	journal = {Journal of Computational and Graphical Statistics},
 	preprint = {https://arxiv.org/abs/2211.04459},
 	title = {{flexBART: Flexible Bayesian} regression trees with categorical predictors},
@@ -22,7 +23,8 @@
 	abstract = {The linear varying coefficient models posits a linear relationship between an outcome and covariates in which the covariate effects are modeled as functions of additional effect modifiers. Despite a long history of study and use in statistics and econometrics, state-of-the-art varying coefficient modeling methods cannot accommodate multivariate effect modifiers without imposing restrictive functional form assumptions or involving computationally intensive hyperparameter tuning. In response, we introduce VCBART, which flexibly estimates the covariate effect in a varying coefficient model using Bayesian Additive Regression Trees. With simple default settings, VCBART outperforms existing varying coefficient methods in terms of covariate effect estimation, uncertainty quantification, and outcome prediction. We illustrate the utility of VCBART with two case studies: one examining how the association between later-life cognition and measures of socioeconomic position vary with respect to age and socio-demographics and another estimating how temporal trends in urban crime vary at the neighborhood level. An R package implementing VCBART is available at [this url](https://github.com/skdeshpande91/VCBART)},
 	author = {\skd and Ray Bai and Cecilia Balocchi and Jennifer E. Starling and Jordan Weiss},
 	date-added = {2024-09-24 16:46:12 -0500},
-	date-modified = {2024-11-14 13:23:14 -0600},
+	date-modified = {2024-11-19 12:42:00 -0600},
+	doi = {10.1214/24-BA1470},
 	journal = {Bayesian Analysis},
 	preprint = {https://arxiv.org/abs/2003.06416},
 	title = {{VCBART: Bayesian} trees for varying coefficients},
