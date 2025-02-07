@@ -7,7 +7,7 @@ date: 2024-05-16
 venue:
 paperurl:
 preprinturl: https://arxiv.org/abs/2209.04389
-citation: 'Shen, Y., and Deshpande, S.K. (2024+). &quot;Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO.&quot;arXiv:2209.04389'
+citation: 'Shen, Y., and Deshpande, S.K. (2024+). &quot;Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO.&quot;'
 note: 'preprint'
 ---
 <b> Abstract </b> : 
