@@ -1,7 +1,7 @@
-pdflatex Deshpande_cv_new.tex
-biber Deshpande_cv_new
-pdflatex Deshpande_cv_new.tex
-pdflatex Deshpande_cv_new.tex
+pdflatex Deshpande_cv.tex
+biber Deshpande_cv
+pdflatex Deshpande_cv.tex
+pdflatex Deshpande_cv.tex
 
 rm *.aux
 rm *.blg
