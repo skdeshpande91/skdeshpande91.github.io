@@ -1,12 +1,22 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Sameer Deshpande at 2025-02-08 16:58:59 -0600 
+%% Created for Sameer Deshpande at 2025-09-04 08:20:31 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@online{2025-06-16-mixed-mSSL,
+	abstract = {We consider a high-dimensional multi-outcome regression in which $q$, possibly dependent, binary and continuous outcomes are regressed onto $p$ covariates. We model the observed outcome vector as a partially observed latent realization from a multivariate linear regression model. Our goal is to estimate simultaneously a sparse matrix ($B$) of latent regression coefficients (i.e., partial covariate effects) and a sparse latent residual precision matrix ($\Omega$), which induces partial correlations between the observed outcomes. To this end, we specify continuous spike-and-slab priors on all entries of $B$ and off-diagonal elements of $\Omega$ and introduce a Monte Carlo Expectation-Conditional Maximization algorithm to compute the maximum a posterior estimate of the model parameters. Under a set of mild assumptions, we derive the posterior contraction rate for our model in the high-dimensional regimes where both $p$ and $q$ diverge with the sample size $n$ and establish a sure screening property, which implies that, as n increases, we can recover all truly non-zero elements of $B$ with probability tending to one. We demonstrate the excellent finite-sample properties of our proposed method, which we call mixed-mSSL, using extensive simulation studies and three applications spanning medicine to ecology.},
+	author = {Soham Ghosh and Sameer K. Deshpande},
+	date-added = {2025-09-04 08:10:15 -0500},
+	date-modified = {2025-09-04 08:11:20 -0500},
+	eprint = {2506.13007},
+	eprinttype = {arXiv},
+	title = {High-dimensional regression with outcomes of mixed-type using the multivariate spike-and-slab LASSO},
+	year = {2025}}
 
 @online{2024-11-12-ridgeBART,
 	abstract = {Expected points is a value function fundamental to player evaluation and strategic in-game decision-making across sports analytics, particularly in American football. To estimate expected points, football analysts use machine learning tools, which are not equipped to handle certain challenges. They suffer from selection bias, display counter-intuitive artifacts of overfitting, do not quantify uncertainty in point estimates, and do not account for the strong dependence structure of observational football data. These issues are not unique to American football or even sports analytics; they are general problems analysts encounter across various statistical applications, particularly when using machine learning in lieu of traditional statistical models. We explore these issues in detail and devise expected points models that account for them. We also introduce a widely applicable novel methodological approach to mitigate overfitting, using a catalytic prior to smooth our machine learning models.},
@@ -16,16 +26,6 @@
 	eprint = {2411.07984},
 	eprinttype = {arXiv},
 	title = {Scalable piecewise smoothing with {BART}},
-	year = {2024}}
-
-@online{2024-11-14-obliqueBART,
-	abstract = {Expected points is a value function fundamental to player evaluation and strategic in-game decision-making across sports analytics, particularly in American football. To estimate expected points, football analysts use machine learning tools, which are not equipped to handle certain challenges. They suffer from selection bias, display counter-intuitive artifacts of overfitting, do not quantify uncertainty in point estimates, and do not account for the strong dependence structure of observational football data. These issues are not unique to American football or even sports analytics; they are general problems analysts encounter across various statistical applications, particularly when using machine learning in lieu of traditional statistical models. We explore these issues in detail and devise expected points models that account for them. We also introduce a widely applicable novel methodological approach to mitigate overfitting, using a catalytic prior to smooth our machine learning models.},
-	author = {Paul-Hieu V. Nguyen and Ryan Yee and Sameer K. Deshpande},
-	date-added = {2024-11-14 13:14:06 -0600},
-	date-modified = {2025-02-05 18:48:32 -0600},
-	eprint = {2411.08849},
-	eprinttype = {arXiv},
-	title = {Oblique {Bayesian} additive regression trees},
 	year = {2024}}
 
 @online{2024-09-10-epa,
@@ -47,14 +47,4 @@
 	eprinttype = {arXiv},
 	preprint = {https://arxiv.org/abs/2408.07765},
 	title = {A {Bayesian} classification tree approach to treatment effect variation with noncompliance},
-	year = {2024}}
-
-@online{2024-05-16-mSSL-theory,
-	author = {Yunyi Shen and Sameer K. Deshpande},
-	date-added = {2024-05-21 19:44:02 -0500},
-	date-modified = {2025-02-05 18:48:03 -0600},
-	eprint = {2209.04389},
-	eprinttype = {arXiv},
-	preprint = {https://arxiv.org/abs/2209.04389},
-	title = {Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO},
 	year = {2024}}

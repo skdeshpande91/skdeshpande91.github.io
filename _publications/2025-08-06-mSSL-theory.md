@@ -1,14 +1,14 @@
 ---
 title: "Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO"
 collection: 'publications'
-permalink: /publications/2024-05-16-mSSL-theory
+permalink: /publications/2025-08-16-mSSL-theory
 excerpt: 
-date: 2024-05-16
+date: 2025-08-16
 venue:
-paperurl:
+paperurl: https://doi.org/10.1016/j.jmva.2025.105493
 preprinturl: https://arxiv.org/abs/2209.04389
-citation: 'Shen, Y., and Deshpande, S.K. (2024+). &quot;Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO.&quot;'
-note: 'preprint'
+citation: 'Shen, Y., and Deshpande, S.K. (2025). &quot;Posterior contraction and uncertainty quantification for the multivariate spike-and-slab LASSO.&quot; <i>Journal of Multivariate Analysis</i>.<b>210</b>:105493'
+note: 'published'
 ---
 <b> Abstract </b> : 
 We study the asymptotic properties of Deshpande et al. (2019)'s multivariate spike-and-slab LASSO (mSSL) procedure for simultaneous variable and covariance selection in the sparse multivariate linear regression problem.

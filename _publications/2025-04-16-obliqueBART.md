@@ -1,14 +1,14 @@
 ---
-title: "Oblique Bayesian additive regression trees"
+title: "Oblique Bayesian Additive Regression Trees"
 collection: 'publications'
-permalink: /publications/2024-11-13-obliqueBART
+permalink: /publications/2025-04-16-obliqueBART
 excerpt: 
-date: 2024-11-13
+date: 2025-04-16
 venue:
-paperurl:
+paperurl: https://openreview.net/forum?id=l4Qnj4tHBx
 preprinturl: https://arxiv.org/abs/2411.08849
-citation: 'Nguyen, P-H.V., Yee, R., Deshpande, S.K. (2024+). &quot;Oblique Bayesian additive regression trees.&quot;'
-note: 'preprint'
+citation: 'Nguyen, P-H.V., Yee, R., Deshpande, S.K. (2025). &quot;Oblique Bayesian additive regression trees.&quot; <i>Transactions of Machine Learning Research</i>'
+note: 'accepted'
 ---
 
 <b> Abstract </b> : 
