@@ -56,8 +56,6 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               : &twitter skdeshpande91
 facebook:
   username               :
   app_id                 :
@@ -109,7 +107,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "skdeshpande91"
+  twitter          :
   vine             :
   weibo            :
   xing             :

@@ -4,7 +4,7 @@ title: "Deshpande Lab"
 permalink: /group/
 ---
 
-<b> Under construction </b>
+**Under construction**
 
 <!--
 {% include base_path %}
