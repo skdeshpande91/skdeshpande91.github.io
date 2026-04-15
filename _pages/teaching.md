@@ -8,7 +8,7 @@ author_profile: true
 
 ## UW–Madison
 
-In Fall 2025, I am teaching STAT 479 (Sports Analytics). More information can be found <a href="https://skdeshpande91.github.io/stat479_fall2025/">here</a>
+In Fall 2025, I am teaching STAT 479 (Sports Analytics). More information can be found [here](https://skdeshpande91.github.io/stat479_fall2025/)
 
 I've previously taught STAT 775 (Bayesian Statistics), STAT 628 (Data Science Practicum), STAT 333 (Applied Linear Regression), two iterations of STAT 992 (one focused on the Dirichlet Process and the other on Hamiltonian Monte Carlo), and STAT 479 (Introduction to Bayesian Data Analysis).
 
