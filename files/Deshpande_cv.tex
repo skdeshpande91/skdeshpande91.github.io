@@ -3,6 +3,10 @@
 \usepackage{hyperref}
 \usepackage{fullpage}
 \usepackage{enumitem}
+\usepackage{datetime}
+
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
 
 \usepackage{geometry}
 \usepackage{sectsty}
@@ -49,6 +53,11 @@ giveninits=true, maxbibnames=20]{biblatex}
 \addbibresource{Deshpande_pubs.bib}
 
 
+% Remove the "in prefix"
+% https://tex.stackexchange.com/questions/10682/suppress-in-biblatex
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+
 \renewcommand*\plmarginyear[1]{%
   \raggedleft\small{#1}%
 }
@@ -66,7 +75,7 @@ giveninits=true, maxbibnames=20]{biblatex}
 
 \begin{center}
 { \Large Sameer K. Deshpande } \\
-February 2026
+\monthyeardate\today
 \end{center}
 
 \begin{minipage}{0.35\linewidth}
@@ -111,11 +120,13 @@ Homepage: \url{https://skdeshpande91.github.io}
 \section*{Preprints \& Working Papers}
 \newrefsection[Deshpande_preprint]
 \nocite{*}
+\uspunctuation
 \printbibliography[heading=none]
 
 \section*{Papers}
 \newrefsection[Deshpande_pubs]
 \nocite{*}
+\uspunctuation
 \printbibliography[heading=none]
 
 \section*{Teaching}
@@ -123,6 +134,7 @@ Homepage: \url{https://skdeshpande91.github.io}
 \begin{itemize}
 \item{University of Wisconsin--Madison}
 \begin{itemize}
+\item{STAT 441: Advanced Sports Analytics (Fall 2026)}
 \item{STAT 479: Sports Analytics (Fall 2025)}
 \item{STAT 775: Bayesian Statistics (Spring 2022, Fall 2022, Spring 2024, 2025, 2026)}
 \item{STAT 628: Data Science Practicum (Spring 2024, 2025)}
@@ -151,7 +163,7 @@ Awarded for our article ``Crime in Philadelphia: Bayesian clustering with partic
 \section*{Department Seminars \& Workshops}
 
 \begin{itemize}
-\item{2026: ICERM Workshop on Bayesian nonparametrics; Virginia Commonwealth University (Biostatistics); UNC Charlotte; North Carolina State; Northwestern University (Political Science)}
+\item{2026: ICERM Workshop on Bayesian nonparametrics; Virginia Commonwealth University (Biostatistics); UNC Charlotte; North Carolina State; Northwestern University (Political Science); University of Iowa (Biostatistics)}
 \item{2025: University of Wisconsin--Madison (Biostatistics \& Medical Informatics, Political Science, Statistics), CANSSI Monte Carlo Workshop}
 \item{2024: Frontiers of Bayesian Inference and Data Science (BIRS-CMO); National Autonomous University of Mexico; Medical College of Wisconsin (Biostatistics); Brigham Young University; Rice University; University of Edinburgh}
 \item{2023: Purdue University; Arizona State University; University of South Carolina; University of Wisconsin--Madison (Plant Pathology)}
@@ -198,6 +210,7 @@ Awarded for our article ``Crime in Philadelphia: Bayesian clustering with partic
 \subsection*{Professional Service}
 
 \begin{itemize}
+\item{Vice-Chair, Local Organizing Committee for the 2028 ISBA World Meeting}
 \item{ISBA Program Council (Chair 2025) \hfill January 2024--present.}
 \item{Chair, Scientific Committee for the the 2026 ISBA World Meeting}
 \item{Action Editor, \textit{Transactions of Machine Learning Research} \hfill January 2025--present}
