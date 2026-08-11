@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Sameer Deshpande at 2026-05-15 14:37:33 -0500 
+%% Created for Sameer Deshpande at 2026-08-11 08:12:15 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,12 +10,21 @@
 
 @online{2025-10-10-sparseVCBART,
 	author = {Soham Ghosh and Saloni Bhogale and Sameer K. Deshpande},
-	date-added = {2025-11-03 09:27:45 -0600},
-	date-modified = {2025-11-03 09:28:42 -0600},
+	date-added = {2026-08-11 07:22:54 -0500},
+	date-modified = {2026-08-11 07:22:54 -0500},
 	eprint = {2510.08204},
 	eprinttype = {arXiv},
 	title = {Fitting sparse high-dimensional varying-coefficient models with {Bayesian} regression tree ensembles},
 	year = {2025}}
+
+@online{2026-06-30-multiVCBART,
+	author = {Soham Ghosh and Sameer K. Deshpande},
+	date-added = {2025-11-03 09:27:45 -0600},
+	date-modified = {2026-08-11 08:12:15 -0500},
+	eprint = {2606.29114},
+	eprinttype = {arXiv},
+	title = {Multivariate varying-coefficient {BART} with graphical horseshoe priors},
+	year = {2026}}
 
 @online{2025-06-16-mixed-mSSL,
 	abstract = {We consider a high-dimensional multi-outcome regression in which $q$, possibly dependent, binary and continuous outcomes are regressed onto $p$ covariates. We model the observed outcome vector as a partially observed latent realization from a multivariate linear regression model. Our goal is to estimate simultaneously a sparse matrix ($B$) of latent regression coefficients (i.e., partial covariate effects) and a sparse latent residual precision matrix ($\Omega$), which induces partial correlations between the observed outcomes. To this end, we specify continuous spike-and-slab priors on all entries of $B$ and off-diagonal elements of $\Omega$ and introduce a Monte Carlo Expectation-Conditional Maximization algorithm to compute the maximum a posterior estimate of the model parameters. Under a set of mild assumptions, we derive the posterior contraction rate for our model in the high-dimensional regimes where both $p$ and $q$ diverge with the sample size $n$ and establish a sure screening property, which implies that, as n increases, we can recover all truly non-zero elements of $B$ with probability tending to one. We demonstrate the excellent finite-sample properties of our proposed method, which we call mixed-mSSL, using extensive simulation studies and three applications spanning medicine to ecology.},
@@ -45,15 +54,4 @@
 	eprint = {2409.04889},
 	eprinttype = {arXiv},
 	title = {Moving from machine learning to {Statistics}: The case of expected points in {American} football},
-	year = {2024}}
-
-@online{2024-08-16-bcflate,
-	abstract = {Estimating varying treatment effects in randomized trials with noncompliance is inherently challenging since variation comes from two separate sources: variation in the impact itself and variation in the compliance rate. In this setting, existing frequentist and flexible machine learning methods are highly sensitive to the weak instruments problem, in which the compliance rate is (locally) close to zero. Bayesian approaches, on the other hand, can naturally account for noncompliance via imputation. We propose a Bayesian machine learning approach that combines the best features of both approaches. Our main methodological contribution is to present a Bayesian Causal Forest model for binary response variables in scenarios with noncompliance by repeatedly imputing individuals' compliance types, allowing us to flexibly estimate varying treatment effects among compliers. Simulation studies demonstrate the usefulness of our approach when compliance and treatment effects are heterogeneous. We apply the method to detect and analyze heterogeneity in the treatment effects in the Illinois Workplace Wellness Study, which not only features heterogeneous and one-sided compliance but also several binary outcomes of interest. We demonstrate the methodology on three outcomes one year after intervention. We confirm a null effect on the presence of a chronic condition, discover meaningful heterogeneity in a "bad health" outcome that cancels out to null in classical partial effect estimates, and find substantial heterogeneity in individuals' perception of management prioritization of health and safety.},
-	author = {Jared D. Fisher and David W. Puelz and Sameer K. Deshpande},
-	date-added = {2024-08-16 08:22:48 -0500},
-	date-modified = {2025-02-05 18:48:12 -0600},
-	eprint = {2408.07765},
-	eprinttype = {arXiv},
-	preprint = {https://arxiv.org/abs/2408.07765},
-	title = {A {Bayesian} classification tree approach to treatment effect variation with noncompliance},
 	year = {2024}}

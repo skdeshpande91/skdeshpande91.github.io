@@ -3,3 +3,7 @@ _site/
 files/*.log
 files/*.aux
 files/*.synctex.gz
+files/*.bbl
+files/*.out
+files/*.bpx
+

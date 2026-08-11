@@ -1,14 +1,14 @@
 ---
 title: "Quantifying the limits of human athletic performance: A Bayesian analysis of elite decathletes"
 collection: 'publications'
-permalink: /publications/2026-02-19-decathlon
+permalink: /publications/2026-06-01-decathlon
 excerpt: 
-date: 2026-02-19-decathlon
+date: 2026-06-01
 venue:
-paperurl:
+paperurl: https://doi.org/10.1515/jqas-2026-0026
 preprinturl: https://arxiv.org/pdf/2602.17043
 citation: 'Nguyen, P-H. V., Smoliga, J. M., Lindaman, B., and Deshpande, S. K. (2026). &quot;Quantifying the limits of human athletic performance: A Bayesian analysis of elite decathletes.&quot; <i>Journal of Quantitative Analysis in Sports</i> (to appear).'
-note: 'accepted'
+note: 'published'
 ---
 
 <b> Abstract </b> : 
