@@ -1,12 +1,12 @@
 ---
-title: "Multivariate varying-coefficient {BART} with graphical horseshoe priors"
+title: "Multivariate varying-coefficient BART with graphical horseshoe priors"
 collection: 'publications'
 permalink: /publications/2026-06-30-multiVCBART
 excerpt: 
 date: 2026-06-30-multiVCBART
 venue:
 paperurl:
-preprinturl: https://arxiv.org/abs/2506.13007
+preprinturl: https://arxiv.org/abs/2606.29114
 citation: 'Ghosh, S. and Deshpande, S.K. (2026+). &quot;Multivariate varying-coefficient BART with graphical horseshoe priors.&quot;'
 note: 'preprint'
 ---
